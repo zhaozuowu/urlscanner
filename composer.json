@@ -1,0 +1,23 @@
+{
+  "name": "stephen/urlscanner",
+  "description": "Scan URLS FROM A CSV FILE AND REPORT INVALID URLS",
+  "require-dev": {
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "zhaozuowu",
+      "email": "gaofandi1236677@126.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.0.0",
+    "guzzlehttp/guzzle": "~5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Stephen\\UrlScanner\\": "src/"
+    }
+  }
+}
